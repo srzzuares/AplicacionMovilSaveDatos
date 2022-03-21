@@ -1,0 +1,78 @@
+
+
+@font-face {
+    font-family: 'Pr';
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf),
+      url(../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+      @font-face {
+          font-family: 'St';
+          src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf),
+          url(../fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf);
+      }
+  
+          @font-face {
+              font-family: 'Sa';
+              src: url(../fonts/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf);
+          }
+
+
+body{
+    background-color:#060000;
+}
+
+.img{
+  background:url(../img/fondoDatos.jpeg) no-repeat center top;
+  background-position: center;
+  background-size:150%;     
+  border-radius: 46%; 
+  width:310px;  height: 320px;
+  left:5%; top:10%;
+}
+
+
+
+
+.app2 {
+  color:#e8c751;
+    position:absolute;             
+    left:40%;   top:40%;                   
+    width:300px;
+    padding:260px 0px 0px 0px;    
+    margin:-255px 0px 0px -112px;  
+}
+.lista{
+font-family:st;
+  font-size:18px;
+}
+
+.prrf{
+  font-size:25px;
+text-align:center;
+  font-family:pr;
+  font-weight:bold;
+}
+.datos{
+  font-size:20px;
+    font-family:st;
+    font-weight: bold;
+}
+ul {  
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+
+ul li {  
+  padding-left: 2rem;
+  background-image: url(../img/atomoaa.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;                          
+  background-repeat: no-repeat;
+}
+
+
+
